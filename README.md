@@ -3,5 +3,10 @@ Reactive Mongo is sample base reactive programming. <br >
 I use the Mongo-reactive driver in this sample. <br >
 This sample contains CRUD-Api. 
 
-## pre-start
-    run mongo server, after that run project
+## requirement
+    - java11
+    - mvn
+    - docker
+## run-project for test
+    1 - build project : mvn clean compile package
+    2 - docker-compose up --build
